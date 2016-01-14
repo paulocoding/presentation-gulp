@@ -10,19 +10,24 @@ body {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 2rem;
 	text-align: left;
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 1.7rem;
 	text-align: left;
-	font-weight: 300;
+	font-weight: 500;
+  padding-bottom: 4px;
+  padding-top: 4px;
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 	text-align: left;
+	font-weight: 600;
+  padding-bottom: 4px;
+  padding-top: 8px;
 }
 
 a, a:visited {
