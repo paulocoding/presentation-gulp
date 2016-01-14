@@ -1,3 +1,20 @@
+#mv-right, #mv-left {
+  position: fixed;
+  top: 10px;
+  opacity: .3;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+  cursor: pointer; }
+
+#mv-left {
+  left: 10px; }
+
+#mv-right {
+  right: 10px; }
+
+#mv-right:hover, #mv-left:hover {
+  opacity: .9; }
+
 .slide {
   display: block;
   width: 100%;

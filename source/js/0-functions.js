@@ -7,5 +7,6 @@ var moveSlide = function(slides, current, n){
     current = slides.length-1;
   }
   $(slides[current]).fadeIn();
+    
   return current;
 };

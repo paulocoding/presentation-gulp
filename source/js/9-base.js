@@ -23,6 +23,13 @@ var main = function() {
       
   });
   
+  
+  // mouse click to advance
+  $('html').mousedown(function(event) {
+    if (event.which === 1) {        
+            currentSlide = moveSlide(slides, currentSlide, 1);
+    }
+});
 };
 // end of main function
 

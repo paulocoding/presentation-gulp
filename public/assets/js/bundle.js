@@ -7,6 +7,7 @@ var moveSlide = function(slides, current, n){
     current = slides.length-1;
   }
   $(slides[current]).fadeIn();
+    
   return current;
 };
 var main = function() {
@@ -34,6 +35,13 @@ var main = function() {
       
   });
   
+  
+  // mouse click to advance
+  $('html').mousedown(function(event) {
+    if (event.which === 1) {        
+            currentSlide = moveSlide(slides, currentSlide, 1);
+    }
+});
 };
 // end of main function
 
