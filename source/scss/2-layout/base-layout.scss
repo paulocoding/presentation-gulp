@@ -37,3 +37,13 @@ a, a:visited {
 a:hover {
 	color: #ee9933;
 }
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}

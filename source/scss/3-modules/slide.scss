@@ -1,6 +1,10 @@
  .slide{
    display: block;
    width: 100%;
+   clear: both;
+   img{
+     max-width: 100%;
+   }
    .slide-title{
       color: #fff;
       background-color: #3DA7C1;
@@ -12,7 +16,7 @@
       max-width: 768px;
       margin: 0 auto;
       ul{
-        margin-left: 80px;
+        margin-left: 60px;
         ul{
           margin-left: 40px;
         }

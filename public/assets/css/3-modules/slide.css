@@ -1,6 +1,9 @@
 .slide {
   display: block;
-  width: 100%; }
+  width: 100%;
+  clear: both; }
+  .slide img {
+    max-width: 100%; }
   .slide .slide-title {
     color: #fff;
     background-color: #3DA7C1;
@@ -11,7 +14,7 @@
     max-width: 768px;
     margin: 0 auto; }
     .slide .slide-content ul {
-      margin-left: 80px; }
+      margin-left: 60px; }
       .slide .slide-content ul ul {
         margin-left: 40px; }
   .slide .half-slide-v {
