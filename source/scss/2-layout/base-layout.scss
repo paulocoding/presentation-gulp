@@ -1,12 +1,14 @@
+$bg-color: #fafafa;
+
 body {
-	background-color: #fafafa;
+	background-color: $bg-color;
 	color: #333;
 	font-family: 'Lato', Sans-serif;
 }
 
 ::selection {
-	background-color: #263e59;
-	color: #dfffff;
+	background-color: $bg-color;
+	color: #333;
 }
 
 h1 {
@@ -36,6 +38,16 @@ a, a:visited {
 
 a:hover {
 	color: #ee9933;
+}
+
+ul {
+    list-style:none;
+    margin-bottom: 10px;
+}
+
+ul li:before {
+	content:url(../img/chevron-right.png);
+  padding-right: 4px;
 }
 
 .clear:before,

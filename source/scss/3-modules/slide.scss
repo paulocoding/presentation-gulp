@@ -1,20 +1,21 @@
-#mv-right, #mv-left {
-  position: fixed;
-  top: 10px;
-  opacity: .3;  
-  transition-duration: 300ms;
-  cursor: pointer;
+$title-color: #3DA7C1;
+
+.center-h{
+  display: block;
+  margin: 0 auto;
+}
+.center-text{
+  text-align: center;
+}
+.center-v {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-#mv-left{
-  left: 10px;
-}
-#mv-right{
-  right: 10px;
-}
-
-#mv-right:hover, #mv-left:hover {
-  opacity: .9;
+.pad-left {
+  padding-left: 35%;
 }
 
 .slide{
@@ -26,18 +27,20 @@
    }
    .slide-title{
       color: #fff;
-      background-color: #3DA7C1;
+      background-color: $title-color;
       text-align: center;
     }
     .slide-content{
       padding: 10px 15px;
       display: block;
-      max-width: 768px;
+      max-width: 800px;
+      height: 400px;
       margin: 0 auto;
       ul{
-        margin-left: 60px;
-        ul{
-          margin-left: 40px;
+        display: inline-block;
+        margin-left: 10px;
+        li{
+            padding-left: 10px;
         }
       }
     }

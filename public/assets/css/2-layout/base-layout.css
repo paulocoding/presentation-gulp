@@ -4,12 +4,12 @@ body {
   font-family: 'Lato', Sans-serif; }
 
 ::-moz-selection {
-  background-color: #263e59;
-  color: #dfffff; }
+  background-color: #fafafa;
+  color: #333; }
 
 ::selection {
-  background-color: #263e59;
-  color: #dfffff; }
+  background-color: #fafafa;
+  color: #333; }
 
 h1 {
   font-size: 2rem;
@@ -34,6 +34,14 @@ a, a:visited {
 
 a:hover {
   color: #ee9933; }
+
+ul {
+  list-style: none;
+  margin-bottom: 10px; }
+
+ul li:before {
+  content: url(../img/chevron-right.png);
+  padding-right: 4px; }
 
 .clear:before,
 .clear:after {
